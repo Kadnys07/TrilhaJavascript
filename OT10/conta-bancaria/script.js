@@ -43,7 +43,6 @@ class ContaBancaria {
 }
 
 
-// --- COMO USAR A CLASSE ---
 
 console.log("--- Criando a conta para Maria ---");
 const contaDaMaria = new ContaBancaria('Maria Souza', 1000);
