@@ -22,3 +22,10 @@ let musicas = ["Bohemian Rhapsody", "Imagine", "Hotel California"];
 let cloneMusicas = [...musicas, "Stairway to Heaven", "Smells Like Teen Spirit"];
 console.log(musicas);
 console.log(cloneMusicas);
+
+//Filme
+let filme = { nome: "Inception", diretor: "Christopher Nolan"};
+let infoFilme = {ano: 2010, genero: "Sci-Fi" };
+let filmeCompleto = { ...filme, ...infoFilme };
+console.log(filmeCompleto);
+
