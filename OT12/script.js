@@ -29,3 +29,13 @@ let infoFilme = {ano: 2010, genero: "Sci-Fi" };
 let filmeCompleto = { ...filme, ...infoFilme };
 console.log(filmeCompleto);
 
+//Menu
+
+let entradas = ["Salada", "Sopa"];
+let pratosPrincipais = ["Frango", "Peixe"];
+let sobremesas = ["Bolo", "Sorvete"];
+function criarMenu(entradas, pratosPrincipais, sobremesas) {
+    let menu = {...entradas, ...pratosPrincipais, ...sobremesas };
+    return menu;
+}
+console.log(criarMenu(menu));
